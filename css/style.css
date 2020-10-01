@@ -1,0 +1,91 @@
+/***GENERAL STYLES***/
+
+body{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+
+/***NAVBAR***/
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 10px;
+    padding-top: 20px;
+}
+
+.navbar-brand>img {
+  display:inline-block;
+  max-height: 100px;
+  max-width: 30%;
+  overflow: visible;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: -5px;
+}
+.nav .navbar-nav .left {
+    float: left;
+    padding-right: 30%;
+}
+
+.navbar-default{
+  border:none;
+  background-color: white;
+  border-radius: none;
+}
+
+/***TYPO***/
+
+#h1-head {
+  color:white;
+}
+.h1-heading {
+  /*width:48%;*/
+  color:white;
+}
+
+.p-main {
+  margin-top: 30px;
+  color: #6f7b97;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.p-description {
+  /*width:45%;*/
+  color:white;
+}
+
+/***JUMBOTRON***/
+
+.hero-background {
+  min-width: 100%;
+  min-height: 100%;
+  background-image: url(../img/bg-banner-home.jpg);
+  background-size: cover;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+}
+
+/***MAIN***/
+
+.row-logo {
+width: calc((100%/6)-30px);
+
+}
+
+.loghi {
+  list-style: none;
+  max-height: 10%;
+  max-width: 80%;
+  vertical-align: middle;
+}
+
+.sfondo-main {
+  background: #f3f5f9;
+}
