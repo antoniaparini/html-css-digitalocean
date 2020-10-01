@@ -1,8 +1,8 @@
 /***GENERAL STYLES***/
 
 body{
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
 }
 
 
@@ -43,7 +43,7 @@ body{
 #h1-head {
   color:white;
 }
-.h1-heading {
+.jumbotron .h1-heading {
   /*width:48%;*/
   color:white;
 }
