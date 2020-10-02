@@ -87,7 +87,7 @@ width: calc((100%/6)-30px);
 .loghi {
   list-style: none;
   max-height: 10%;
-  max-width: 80%;
+  max-width: 100%;
   vertical-align: middle;
 }
 
