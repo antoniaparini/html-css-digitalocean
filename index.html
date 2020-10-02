@@ -37,52 +37,30 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <!-- Navbar - left -->
           <ul class="nav navbar-nav left">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
+            <li>
+              <a href="#">Products<span class="caret"></span></a>
             </li>
-            <li class=""><a href="#">Customers<span class="sr-only">(current)</span></a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
+            <li class=""><a href="#">Customers</a></li>
+            <li>
+              <a href="#">Community</a>
             </li>
             <li><a href="#">Pricing</a></li>
           </ul>
           <!-- Navbar - right-->
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Docs</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-              </ul>
+            <li>
+              <a href="#">Support</a>
             </li>
+            <li><a href="#">Login</a></li>
+            <li><button type="button" class="btn btn-default">Sign up</button></li>
           </ul>
         </div>
         </div><!-- /.navbar-collapse -->
       </div>
     </nav>
     </header>
+
 
     <!--Jumbotron-->
     <!--d-flex property Serve per allineare un div verticalmente, nel mezzo di un container in combinazione con la classe align-items-center-->
@@ -93,11 +71,33 @@
             <h1 class="h1-heading">The simplest cloud platform for developers & teams</h1>
             <p class="p-description">Deploy, manage,and scale cloud applications faster and more efficiently on Digital Ocean. We make managigna infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
           </div>
+          <!--Area Card right-->
+          <div class="col-xs-12 col-sm-6">
+            <div class="form-area">
+              <h2 class="text-center">Deploy your app in seconds.</h2>
+              <h2 class="text-center text-getstart">Get started now.</h2>
+              <!--FORM-->
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1"></label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1"></label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <button type="submit" class="btn button-create">Create your account</button>
+                <button type="submit" class="btn button-sign-up">
+                  <img class="google-pad"src="./img/google-icon.png" alt="sign-up-google" width="18px" heigth="18px">Sign up with google</button>
+              </form>
+              <p class="text-center"><small>by signing up you agree to the </small><a href=""><small>Term of Service</small></a></p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <!--Area Card right-->
+
 
     <!-- MAIN CONTENT -->
     <main class="sfondo-main">
@@ -119,6 +119,7 @@
           <!-- Link View Customer stories-->
           <div class="row text-center">
             <a href="#" class="arrow-link"><strong>View customer stories ></strong></a></div>
+            <br>
         </div>
       </section>
     </main>
