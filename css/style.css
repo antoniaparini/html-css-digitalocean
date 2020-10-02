@@ -14,15 +14,6 @@ body{
     padding-top: 20px;
 }
 
-/*.navbar-brand>img {
-  display:inline-block;
-  max-height: 100px;
-  max-width: 30%;
-  overflow: visible;
-  padding-top: 0;
-  padding-bottom: 0;
-}*/
-
 .navbar-brand>img {
     display: inline-block;
     max-height: 100px;
@@ -109,12 +100,24 @@ body{
     padding: 15px;
 }
 
+.btn-def:hover{
+  background-color: #014fff;
+  cursor: pointer;
+  color:white;
+
+}
 .button-create {
   width: 100%;
   margin-top: 15px;
   position: relative;
   background: #579aff;
   color: white;
+}
+
+.button-create:hover{
+  background-color: #014fff;
+  cursor: pointer;
+  color:white;
 }
 
 .button-sign-up {
@@ -126,10 +129,19 @@ body{
   color: #626262;
 }
 
+.button-sign-up:hover{
+  color: #014fff;
+}
+
 .google-pad {
 float: left;
 
 }
+
+.a-small:hover{
+  color: #014fff;
+}
+
 
 /***MAIN***/
 
