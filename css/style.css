@@ -72,6 +72,9 @@ body{
   color:white;
 }
 
+.h2-deploy {
+  color: #031c4e;
+}
 .text-getstart {
   color:#006aff;
 }
@@ -169,4 +172,38 @@ width: calc((100%/6)-20px);
   background: #f3f5f9;
 }
 
-/***MAIN***/
+/***MAIN DEPLOY***/
+.h2-dep-pad {
+  padding-top: 30px;
+}
+.p-deploy {
+  color: #5c6a88;
+}
+
+.elenco-deploy li p {
+    margin-bottom: 0;
+}
+
+.elenco-deploy li{
+  list-style: none;
+  border: none;
+}
+
+.singolo-item p {
+  font-size: 16px;
+}
+
+.singolo-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #fff;
+}
+
+.lista-conf-process li.singolo-item {
+  border-radius: 0;
+  border: none;
+  border-left: 1px solid #cccccc;
+
+}
