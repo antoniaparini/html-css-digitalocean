@@ -2,7 +2,7 @@
 
 body{
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 
@@ -218,4 +218,14 @@ width: calc((100%/6)-20px);
 
 .row-box-deploy{
   padding-bottom: 20px;
+}
+
+/***DESIGNED FOR DEVELOPERS***/
+.h2-desfordev-pad {
+  padding-top: 30px;
+}
+
+.h2-deploy-bold{
+  font-size: 30px;
+  font-weight: bolder;
 }
