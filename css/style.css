@@ -74,6 +74,7 @@ body{
 
 .h2-deploy {
   color: #031c4e;
+  font-weight: bold;
 }
 .text-getstart {
   color:#006aff;
@@ -178,6 +179,7 @@ width: calc((100%/6)-20px);
 }
 .p-deploy {
   color: #5c6a88;
+  margin-bottom: 60px;
 }
 
 .elenco-deploy li p {
@@ -206,4 +208,14 @@ width: calc((100%/6)-20px);
   border: none;
   border-left: 1px solid #cccccc;
 
+}
+
+/***  MAIN BOX DEPLOY AND SCALE***/
+.h3-deploy {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.row-box-deploy{
+  padding-bottom: 20px;
 }
