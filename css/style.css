@@ -219,13 +219,55 @@ width: calc((100%/6)-20px);
 .row-box-deploy{
   padding-bottom: 20px;
 }
+.row-box-deploy2{
+  padding-bottom: 50px;
+}
 
 /***DESIGNED FOR DEVELOPERS***/
+.des-for-dev {
+  background: #f3f5f9;
+}
 .h2-desfordev-pad {
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 .h2-deploy-bold{
   font-size: 30px;
   font-weight: bolder;
+}
+
+/* Slideshow Utility */
+.slider {
+    position: relative;
+}
+
+.slider img {
+  padding-top: 40px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.slider p.text-slider {
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.nav-bullet i:first-child {
+    background: #006aff;
+}
+.blu i {
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 12px;
+  color: transparent;
+  border: 2px #006aff solid;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.nav-bullet {
+  left: 60%;
+
 }
