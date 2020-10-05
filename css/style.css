@@ -265,9 +265,10 @@ width: calc((100%/6)-20px);
   border: 2px #006aff solid;
   border-radius: 50%;
   background: transparent;
+  margin-bottom: 50px;
+
 }
 
 .nav-bullet {
   left: 60%;
-
 }
