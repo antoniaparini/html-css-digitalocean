@@ -272,3 +272,17 @@ width: calc((100%/6)-20px);
 .nav-bullet {
   left: 60%;
 }
+
+/*FEATURES YOUR BUSINESS NEEDS*/
+.geature-business a {
+  margin-bottom: 50px;
+}
+
+/*SERVICE YOUR CUSTOMERS*/
+.service-customers {
+  background-image: linear-gradient(#00209b,#0046c3);
+}
+
+.h2-service {
+  color: white;
+}
