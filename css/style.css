@@ -236,7 +236,7 @@ width: calc((100%/6)-20px);
   font-weight: bolder;
 }
 
-/* Slideshow Utility */
+/*AREA SLIDER*/
 .slider {
     position: relative;
 }
@@ -297,7 +297,7 @@ width: calc((100%/6)-20px);
 .under-line {
     font-size: 13px;
     line-height: 25px;
-    border-bottom: 1px #fff solid;
+    border-bottom: 1px #ffffff solid;
 }
 
 .under-line .col-xs-6 p {
@@ -315,4 +315,27 @@ width: calc((100%/6)-20px);
 .row-pad {
   padding-left: 50px;
   margin-bottom: 50px;
+}
+
+/**Development teams love DigitalOcean**/
+.dev-teams {
+background: #f3f5f9;
+}
+
+.slide {
+    padding: 100px 5px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.dev-teams img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.p-devteams-pad {
+  padding-bottom: 30px;
+}
+.a-devteams-pad {
+  padding-bottom: 15%;
 }
