@@ -395,4 +395,11 @@ background: #f3f5f9;
   background: #fff;
   padding: 10px 15px;
   border: 1px #006aff solid;
+  margin-bottom: 50px;
+}
+
+.btn-gsn:hover {
+  background-color: #014fff;
+  cursor: pointer;
+  color:white;
 }
