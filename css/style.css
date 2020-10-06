@@ -339,3 +339,23 @@ background: #f3f5f9;
 .a-devteams-pad {
   padding-bottom: 15%;
 }
+
+.arrow-sx {
+  display: block;
+  position: absolute;
+  left: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6f7b97;
+  font-size: 50px;
+}
+
+.arrow-dx {
+  display: block;
+  position: absolute;
+  right: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #031c4e;
+  font-size: 50px;
+}
