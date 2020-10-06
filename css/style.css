@@ -273,6 +273,10 @@ width: calc((100%/6)-20px);
   left: 60%;
 }
 
+.nav-bullet2 {
+  margin-top: 20px;
+}
+
 .arrow-sx1 {
   display: block;
   position: absolute;
@@ -378,4 +382,17 @@ background: #f3f5f9;
   transform: translateY(-50%);
   color: #031c4e;
   font-size: 50px;
+}
+
+/**GET STARTED NOW**/
+
+.gsn {
+  background-image: linear-gradient(#00209b,#0046c3);
+  color: white;
+}
+
+.btn-gsn {
+  background: #fff;
+  padding: 10px 15px;
+  border: 1px #006aff solid;
 }
