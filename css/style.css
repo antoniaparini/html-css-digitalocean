@@ -403,3 +403,35 @@ background: #f3f5f9;
   cursor: pointer;
   color:white;
 }
+
+/**FOOTER**/
+.pad-50p{
+  padding-top: 50px;
+}
+
+.footer-back{
+  background: #031c4e;
+}
+
+.p-credits {
+  color: #8b94a9;
+}
+
+.logo-pad {
+  padding-bottom: 20px;
+}
+
+.p-proudly{
+  color: #536282;
+}
+
+.social-icons li{
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 24px;
+}
+.social-icons {
+color: #8b94a9;
+list-style: none;
+padding-left: 10px;
+}
