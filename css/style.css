@@ -442,7 +442,7 @@ padding-left: 10px;
   color: white;
 }
 
-/**FOOTER - COLONNA 2**/
+/**FOOTER - UTILITIES**/
 
 .h3-foot {
   color: white;
@@ -465,4 +465,8 @@ padding-left: 10px;
   text-decoration: none;
 }
 
-/**FOOTER - COLONNA 3**/
+/**TOOLTIP AREA**/
+
+.tooltip-area {
+  position: fixed;
+}
