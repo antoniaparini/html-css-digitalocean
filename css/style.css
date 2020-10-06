@@ -427,11 +427,42 @@ background: #f3f5f9;
 
 .social-icons li{
   display: inline-block;
-  margin-left: 5px;
+  padding: 6px 0;
   font-size: 24px;
+  margin-left: 6px;
 }
 .social-icons {
 color: #8b94a9;
 list-style: none;
 padding-left: 10px;
 }
+
+.social-icons i:hover{
+  cursor: pointer;
+  color: white;
+}
+
+/**FOOTER - COLONNA 2**/
+
+.h3-foot {
+  color: white;
+}
+
+.footer-col li {
+  list-style: none;
+  margin-left: -40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-col li a {
+  color: #a1a9ba;
+}
+
+.footer-col a:hover{
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+/**FOOTER - COLONNA 3**/
